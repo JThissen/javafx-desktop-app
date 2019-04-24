@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Dashboard:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Dashboard_jar</output-path>
+    <root id="archive" name="Dashboard.jar">
+      <element id="module-output" name="Dashboard" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/jfx9be-master/chap06/lib/fontawesomefx-8.9.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

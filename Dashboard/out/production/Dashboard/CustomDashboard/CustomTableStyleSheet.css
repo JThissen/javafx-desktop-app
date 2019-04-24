@@ -1,0 +1,83 @@
+.table-view .scroll-bar:horizontal
+{
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.table-view .scroll-bar:horizontal .increment-arrow,
+.table-view .scroll-bar:horizontal .decrement-arrow,
+.table-view .scroll-bar:horizontal .increment-button,
+.table-view .scroll-bar:horizontal .decrement-button
+{
+    -fx-padding: 0;
+}
+
+.scroll-bar:vertical .track
+{
+    -fx-background-color: #272a38;
+}
+
+.scroll-bar:vertical .thumb
+{
+    -fx-background-color: #323540;
+    -fx-background-insets: 2.0, 0.0, 0.0;
+    -fx-background-radius: 2.0em;
+}
+
+.scroll-bar
+{
+    -fx-background-color: transparent;
+}
+
+/*.table-view:row-selection*/
+/*{*/
+    /*-fx-background-color: transparent;*/
+/*}*/
+
+.table-row-cell
+{
+    -fx-table-cell-border-color: #272a38;
+}
+
+/*.table-row-cell */
+/*{*/
+    /*-fx-background-color: white;*/
+/*}*/
+
+.table-view .column-header-background
+{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label
+{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header#Item .label
+{
+    -fx-alignment: center-left;
+}
+
+.table-view
+{
+    -fx-background-color: #272a38;
+    /*-fx-control-inner-background: #272a38;*/
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    /*-fx-border-color: #323540;*/
+}
+
+.table-view .column-header, .table-view .filler
+{
+    -fx-border-width: 0 0 0 0;
+    -fx-background-color: transparent;
+    /*-fx-border-color: transparent transparent derive(-fx-base, 80%) transparent;*/
+    /*-fx-border-insets: 0 60 1 0;*/
+}
