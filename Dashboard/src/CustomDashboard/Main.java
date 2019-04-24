@@ -169,6 +169,7 @@ public class Main extends Application
             buttonList.get(i).setGraphicTextGap(20);
         }
 
+        button1.setStyle(hoverStyle);
         ButtonHandlers();
 
         for(int i = 0; i < buttonList.size(); ++i)
@@ -355,6 +356,7 @@ public class Main extends Application
                         splitPane.getItems().add(1, empty);
                     }
                     splitPane.lookup(".split-pane-divider").setStyle("-fx-background-color: #0d131e; -fx-padding: 0 1 0 1");
+                    splitPane.lookup(".split-pane-divider").setMouseTransparent(true);
                 }
             });
         }
@@ -383,6 +385,7 @@ public class Main extends Application
         primaryStage.show();
 
         splitPane.getDividers().get(0).positionProperty().set(200/scene.getWidth());
+        splitPane.lookup(".split-pane-divider").setMouseTransparent(true);
         splitPane.getDividers().get(0).positionProperty().addListener(new ChangeListener<Number>()
         {
             @Override
