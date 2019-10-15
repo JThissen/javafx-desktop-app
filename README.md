@@ -27,3 +27,8 @@ Built a basic desktop dashboard application while learning [JavaFX](https://en.w
         ├───CustomDashboard
         └───META-INF
   ```
+
+Launch your favorite terminal and clone the github repository using:
+```
+git clone https://github.com/JThissen/Dashboard-desktop-app.git
+```
