@@ -1,6 +1,6 @@
 # Desktop dashboard application
 
-Built a basic desktop dashboard application while learning [JavaFX](https://en.wikipedia.org/wiki/JavaFX). The displayed data is randomly generated. The goal was to create a bunch of GUI elements.
+Built a basic desktop dashboard application while learning [JavaFX](https://en.wikipedia.org/wiki/JavaFX). The displayed data is randomly generated. The goal was to create a bunch of custom GUI elements.
 
 
 ## Screenshots
