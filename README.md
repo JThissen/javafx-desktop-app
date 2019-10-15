@@ -1,10 +1,31 @@
-# Dashboard desktop app
+# Desktop dashboard application
 
-A cross-platform desktop dashboard app made while learning javafx. The data displayed is randomly generated.
+Built a basic desktop dashboard application while learning [JavaFX](https://en.wikipedia.org/wiki/JavaFX). The displayed data is randomly generated. The goal was to create a bunch of GUI elements.
 
-The **source code** can be found at:     Dashboard-desktop-app/Dashboard/src/CustomDashboard/ \
-The **.jar executable** can be found at:  Dashboard-desktop-app/Dashboard/out/artifacts/Dashboard_jar/
 
+## Screenshots
 ![](Dashboard/DashboardPreview/DashboardImage.png)
 
-25 April 2019.
+## Folder structure
+```
+└───Dashboard
+    ├───.idea
+    │   ├───artifacts
+    │   └───Icons
+    ├───DashboardPreview
+    ├───out
+    │   ├───artifacts
+    │   │   ├───Dashboard
+    │   │   │   └───CustomDashboard
+    │   │   └───Dashboard_jar
+    │   └───production
+    │       └───Dashboard
+    │           ├───CustomDashboard
+    │           └───META-INF
+    └───src
+        ├───CustomDashboard
+        └───META-INF
+  ```
+
+
+##### April 25, 2019.
